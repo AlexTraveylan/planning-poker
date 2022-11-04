@@ -1,0 +1,85 @@
+.slide__question__container{
+    width: 30vw;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+.question__container {
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.question {
+    margin-top: 2vh;
+    height: 15vw;
+    width: 25vw;
+    background-color: grey;
+    border-radius: 1vw;
+    box-shadow: 1px 1px 5px 6px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 1px 1px 5px 6px rgba(0,0,0,0.63);
+    -moz-box-shadow: 1px 1px 5px 6px rgba(0,0,0,0.63);
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.question__titre {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.question__btn {
+    height: 4vw;
+    width:10vw;
+    background-color: blue;
+    color: #d7e9ff;
+    border-radius: 0.6vw;
+    border: 2px solid blue;
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 6px 24px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 5px 6px 24px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 5px 6px 24px 1px rgba(0,0,0,0.3);
+}
+
+.question__btn > span {
+    font-size: 1.2vw;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.question__modif__btn {
+    height: 4vw;
+    width: 10vw;
+    background-color: blue;
+    color: #d7e9ff;
+    border-radius: 0.6vw;
+    border: 2px solid blue;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 6px 24px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 5px 6px 24px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 5px 6px 24px 1px rgba(0,0,0,0.3);
+}
+
+.question__modif__btn > span {
+    font-size: 1.2vw;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
