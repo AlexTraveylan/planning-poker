@@ -11,15 +11,15 @@
 
 .card {
     margin: 1vw;
-    border-radius: 0.8rem;
-    height: 7rem;
-    width: 4rem;
+    border-radius: 1vw;
+    height: 7vw;
+    width: 5.5vw;
     border: blue solid 3px;
     position: relative;
 }
 
 .card__number {
-    font-size: 1.8rem;
+    font-size: 0.8rem;
     color: blue;
     position:absolute;
     top: 50%;

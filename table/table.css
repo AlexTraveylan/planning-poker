@@ -4,14 +4,7 @@
     position: relative;
 }
 
-.table {
-    margin: 1vw;
-    background: #d7e9ff;
-    border-radius: 3vw;
-    height: 10vw;
-    width: 20vw;
-    position: relative;
-}
+
 
 .top__players,.bottom__players {
     display: flex;
@@ -25,6 +18,15 @@
     width: 2vw;
     border: blue solid 3px;
     position:relative;
+}
+
+.table {
+    margin: 1vw;
+    background: #d7e9ff;
+    border-radius: 3vw;
+    height: 10vw;
+    width: 20vw;
+    position: relative;
 }
 
 .number,.center__table {
