@@ -24,6 +24,30 @@
     height: 3.5vw;
     width: 2vw;
     border: blue solid 3px;
-    position: relative;
+    position:relative;
 }
 
+.number,.center__table {
+    font-size: 1.2vw;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: blue;
+    font-weight: bold;
+}
+
+.center__table {
+    font-size: 4vw;
+}
+
+.table__btn {
+    font-size: 1.2vw;
+    height: 3vw;
+    width: 9vw;
+    background-color: blue;
+    color: #d7e9ff;
+    border-radius: 0.6vw;
+    border: 2px solid blue;
+}
